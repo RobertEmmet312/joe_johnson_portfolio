@@ -1,0 +1,52 @@
+
+.page-container{
+    margin: 10px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.top-container{
+    text-align:center;
+    margin-top:40px;
+    border-bottom:2px solid black;
+    font-size: 18px;
+
+}
+.about-link{
+    border-right: 1px solid black;
+    padding-right: 5px;            
+}
+h1{
+    font-size: 40px;
+}
+.social-links{
+    text-align: center;
+    padding:29px;
+}
+.social{
+    border-right: 1px solid black;
+    padding-right:5px;
+    font-size:18px;
+}
+
+.joe-container::after { 
+    content: "";
+    display: block; 
+    clear: both;
+    
+}
+
+.left{
+    float:left;
+    width:50%;
+    border-bottom: 1px solid black;
+    height: 140px;
+    font-size: 31px;
+
+}
+
+.farley {
+    float: left;
+    margin-left: 150px;
+    border: 1px solid black;            
+    padding: 5px;
+}
